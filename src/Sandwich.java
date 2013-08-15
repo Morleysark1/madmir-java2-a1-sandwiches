@@ -1,5 +1,5 @@
+import javax.swing.JOptionPane;
 
-public class Sandwich {
 
 	/* 
 	 * This is the Sandwich class.
@@ -12,5 +12,34 @@ public class Sandwich {
 	 */
 
 
-
+public class Sandwich {
+	
+	
+		
+			static String mainIngred;
+			static String breadType;
+			static double price;
+	
+			public String getMainIngred() {
+				return mainIngred;
+			}
+			/* have no clue what i did here
+			*/
+			
+			public String getBreadType(){
+				return breadType;
+			}
+			public double getPrice(){
+				return price;
+			}
+			public void setMainIngred(String newMainIngred) {
+					mainIngred = newMainIngred;
+			}
+			public void setBreadType(String newBreadType) {
+				breadType = newBreadType;
+			}
+			public void setPrice(double newPrice) {
+				price = newPrice;
+		
+			}
 }
